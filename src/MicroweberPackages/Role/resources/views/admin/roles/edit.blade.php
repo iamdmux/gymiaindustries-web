@@ -216,7 +216,7 @@
                         </div>
                     @endforeach
 
-                    <a href="{{route('roles.index')}}" class="btn btn-outline-secondary btn-sm">Cancel</a>
+                    <a href="{{route('admin.role.index')}}" class="btn btn-outline-secondary btn-sm">Cancel</a>
                     <button class="btn btn-secondary btn-sm" type="reset">Reset</button>
 
                     <button class="btn btn-success btn-sm float-right" type="submit">Save</button>
