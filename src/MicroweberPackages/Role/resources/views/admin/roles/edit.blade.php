@@ -66,7 +66,7 @@
         <form id="form_validation" method="post" action="{{ route('roles.update', $role->id) }}">
             @method('PUT')
             @else
-                <form method="post" action="{{ route('roles.store') }}">
+                <form method="post" action="{{ route('admin.role.store') }}">
                     @endif
                     @csrf
 
